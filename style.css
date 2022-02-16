@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    text-align: right;
+    background-color: turquoise;
+    color: hotpink;
+}
+header:hover{
+    background-color: hotpink;
+    color: turquoise;
+}
+p{
+    text-align: left;
+    text-decoration: underline;
+}
+.box{
+    width: 150px;
+    height: 200px;
+    background-color: skyblue;
+    float: left;
+    margin: 0;
+    text-align: center;
+}
+.boxes{
+    position: absolute;
+    left: 500px;
+    right: 0;
+    top: 200px;
+    bottom: 0;
+    margin: auto;
+}
+#box3{
+    background-color: blue;
+}
+#box1{
+    background-color: cornflowerblue;
+}
+.box:hover{
+    background-color: green;
+    cursor: help;
+}
+#box3:hover{
+background-color: green;
+}
+#box1:hover{
+    background-color: green;
+}
+.btn{
+    position: absolute;
+    top: 250px;
+    left: 150px;
+    background-color: green;
+    border-radius: 30px;
+    border-style: dashed;
+    width: 150px;
+    height: 40px;
+}
+.btn:hover{
+    background-color: red;
+    border-radius: 0;
+    cursor: pointer;
+}
