@@ -32,6 +32,9 @@ p{
     bottom: 0;
     margin: auto;
 }
+#box2{
+    font-weight: bold;
+}
 #box3{
     background-color: blue;
 }
